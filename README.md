@@ -7,3 +7,32 @@ This dataset, sourced from Kaggle (lainguyn123/student-performance-factors), con
 
 Problem
  The core problem addresses predicting student exam scores. This is based on various academic and socio-economic factors. Ultimately, we aim to provide insights for improving educational outcomes.
+
+ ## A publicly available API endpoint
+ https://linear-regression-model-5-yrya.onrender.com
+
+ ## A publicly available API endpoint to the Swagger UI
+    https://linear-regression-model-5-yrya.onrender.com/docs
+
+## A link to the YouTube video demo.
+
+## Clear instructions on how to run your mobile app. 
+Below is a brief description on how to successfully run my simulator.
+Open app folder:
+cd "summative/FlutterApp/ml_app"
+
+Install packages:
+flutter pub get
+
+Start an emulator / simulator:
+
+Android: flutter emulators --launch <emulator-id>
+iOS: open -a Simulator
+(If needed) Set backend URL: edit the API base URL in lib/ (search for http://), change to:
+
+Android emulator: http://10.0.2.2:8001
+iOS simulator: http://127.0.0.1:8001
+Or your public URL: https://<your-service>.onrender.com
+Run the app:
+flutter run (or flutter run -d <device-id>)
+So that is just basically it, but for me personally I use ios simulator of the device name 'iphone 16 Plus'.

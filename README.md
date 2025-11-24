@@ -15,7 +15,8 @@ Problem
     https://linear-regression-model-5-yrya.onrender.com/docs
 
 ## A link to the YouTube video demo.
-
+   https://www.youtube.com/watch?v=o5paSz0Awk0
+   
 ## Clear instructions on how to run your mobile app. 
 Below is a brief description on how to successfully run my simulator.
 Open app folder:

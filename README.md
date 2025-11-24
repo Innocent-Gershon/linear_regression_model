@@ -28,11 +28,18 @@ Start an emulator / simulator:
 
 Android: flutter emulators --launch <emulator-id>
 iOS: open -a Simulator
-(If needed) Set backend URL: edit the API base URL in lib/ (search for http://), change to:
 
 Android emulator: http://10.0.2.2:8001
 iOS simulator: http://127.0.0.1:8001
-Or your public URL: https://<your-service>.onrender.com
 Run the app:
 flutter run (or flutter run -d <device-id>)
 So that is just basically it, but for me personally I use ios simulator of the device name 'iphone 16 Plus'.
+
+So after the application runs, we then start the server in the terminal with the command below
+This would activates the Python virtual environment in .venv
+source API/.venv/bin/activate
+
+And this would start the server.
+uvicorn API.main:app --reload --port 8001
+
+After that you can now go on with the predict your exam score either on the test mode using the SWAGGER UI or on the your simulator/emulator.
